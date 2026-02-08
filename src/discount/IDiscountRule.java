@@ -1,4 +1,5 @@
 package discount;
 
-public class IDiscountRule {
+public interface IDiscountRule {
+    double apply(double total);
 }
