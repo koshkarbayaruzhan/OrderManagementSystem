@@ -1,4 +1,5 @@
 package notification;
 
-public class INotification {
+public interface INotification {
+    void sendNotification(String message);
 }
