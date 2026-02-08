@@ -1,4 +1,7 @@
 package payment;
 
-public class IPayment {
+public interface IPayment {
+    void processPayment(double amount);
 }
+
+
