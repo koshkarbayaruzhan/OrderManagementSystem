@@ -1,4 +1,7 @@
 package delivery;
 
-public class IDelivery {
+import model.Order;
+
+public interface IDelivery {
+    void deliverOrder(Order order);
 }
